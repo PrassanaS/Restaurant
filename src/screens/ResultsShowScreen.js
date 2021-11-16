@@ -17,7 +17,7 @@ const ResultsShowScreen = ({navigation}) => {
     }, []);
 
     if (!result){
-        return <Text> error</Text>;
+        return null;
     }
 
     return <View>
